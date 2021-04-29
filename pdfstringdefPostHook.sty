@@ -1,0 +1,247 @@
+\DeclareOption{cp866}{%
+\def\pdfstringdefPostHook#1{%
+  \begingroup
+    \lccode`\1`\\%
+    \lowercase{%
+  \endgroup
+      \def\8{100}%
+      \def\9{1}%
+    }%
+  \HyPsd@StringSubst{\000Ä}{\CYRA}#1%
+  \HyPsd@StringSubst{\000Å}{\CYRB}#1%
+  \HyPsd@StringSubst{\000Ç}{\CYRV}#1%
+  \HyPsd@StringSubst{\000É}{\CYRG}#1%
+  \HyPsd@StringSubst{\000Ñ}{\CYRD}#1%
+  \HyPsd@StringSubst{\000Ö}{\CYRE}#1%
+  \HyPsd@StringSubst{\000Ü}{\CYRZH}#1%
+  \HyPsd@StringSubst{\000á}{\CYRZ}#1%
+  \HyPsd@StringSubst{\000à}{\CYRI}#1%
+  \HyPsd@StringSubst{\000â}{\CYRISHRT}#1%
+  \HyPsd@StringSubst{\000ä}{\CYRK}#1%
+  \HyPsd@StringSubst{\000ã}{\CYRL}#1%
+  \HyPsd@StringSubst{\000å}{\CYRM}#1%
+  \HyPsd@StringSubst{\000ç}{\CYRN}#1%
+  \HyPsd@StringSubst{\000é}{\CYRO}#1%
+  \HyPsd@StringSubst{\000è}{\CYRP}#1%
+  \HyPsd@StringSubst{\000ê}{\CYRR}#1%
+  \HyPsd@StringSubst{\000ë}{\CYRS}#1%
+  \HyPsd@StringSubst{\000í}{\CYRT}#1%
+  \HyPsd@StringSubst{\000ì}{\CYRU}#1%
+  \HyPsd@StringSubst{\000î}{\CYRF}#1%
+  \HyPsd@StringSubst{\000ï}{\CYRH}#1%
+  \HyPsd@StringSubst{\000ñ}{\CYRC}#1%
+  \HyPsd@StringSubst{\000ó}{\CYRCH}#1%
+  \HyPsd@StringSubst{\000ò}{\CYRSH}#1%
+  \HyPsd@StringSubst{\000ô}{\CYRSHCH}#1%
+  \HyPsd@StringSubst{\000ö}{\CYRHRDSN}#1%
+  \HyPsd@StringSubst{\000õ}{\CYRERY}#1%
+  \HyPsd@StringSubst{\000ú}{\CYRSFTSN}#1%
+  \HyPsd@StringSubst{\000ù}{\CYREREV}#1%
+  \HyPsd@StringSubst{\000û}{\CYRYU}#1%
+  \HyPsd@StringSubst{\000ü}{\CYRYA}#1%
+  \HyPsd@StringSubst{\000†}{\cyra}#1%
+  \HyPsd@StringSubst{\000°}{\cyrb}#1%
+  \HyPsd@StringSubst{\000¢}{\cyrv}#1%
+  \HyPsd@StringSubst{\000£}{\cyrg}#1%
+  \HyPsd@StringSubst{\000§}{\cyrd}#1%
+  \HyPsd@StringSubst{\000•}{\cyre}#1%
+  \HyPsd@StringSubst{\000¶}{\cyrzh}#1%
+  \HyPsd@StringSubst{\000ß}{\cyrz}#1%
+  \HyPsd@StringSubst{\000®}{\cyri}#1%
+  \HyPsd@StringSubst{\000©}{\cyrishrt}#1%
+  \HyPsd@StringSubst{\000™}{\cyrk}#1%
+  \HyPsd@StringSubst{\000´}{\cyrl}#1%
+  \HyPsd@StringSubst{\000¨}{\cyrm}#1%
+  \HyPsd@StringSubst{\000≠}{\cyrn}#1%
+  \HyPsd@StringSubst{\000Æ}{\cyro}#1%
+  \HyPsd@StringSubst{\000Ø}{\cyrp}#1%
+  \HyPsd@StringSubst{\000‡}{\cyrr}#1%
+  \HyPsd@StringSubst{\000·}{\cyrs}#1%
+  \HyPsd@StringSubst{\000‚}{\cyrt}#1%
+  \HyPsd@StringSubst{\000„}{\cyru}#1%
+  \HyPsd@StringSubst{\000‰}{\cyrf}#1%
+  \HyPsd@StringSubst{\000Â}{\cyrh}#1%
+  \HyPsd@StringSubst{\000Ê}{\cyrc}#1%
+  \HyPsd@StringSubst{\000Á}{\cyrch}#1%
+  \HyPsd@StringSubst{\000Ë}{\cyrsh}#1%
+  \HyPsd@StringSubst{\000È}{\cyrshch}#1%
+  \HyPsd@StringSubst{\000Í}{\cyrhrdsn}#1%
+  \HyPsd@StringSubst{\000Î}{\cyrery}#1%
+  \HyPsd@StringSubst{\000Ï}{\cyrsftsn}#1%
+  \HyPsd@StringSubst{\000Ì}{\cyrerev}#1%
+  \HyPsd@StringSubst{\000Ó}{\cyryu}#1%
+  \HyPsd@StringSubst{\000Ô}{\cyrya}#1%
+  \HyPsd@StringSubst{\000}{\CYRYO}#1%
+  \HyPsd@StringSubst{\000Ò}{\cyryo}#1%
+  \HyPsd@StringSubst{\000c}{\textnumero}#1%
+  \expandafter\HyPsd@StringSubst\csname 000<\000<\endcsname{\guillemotleft}#1%
+  \expandafter\HyPsd@StringSubst\csname 000>\000>\endcsname{\guillemotright}#1%
+  \expandafter\HyPsd@StringSubst\csname 000,\000,\endcsname{\quotedblbase}#1%
+  \expandafter\HyPsd@StringSubst\csname 000`\000`\endcsname{\textquotedblleft}#1%
+}
+}
+\DeclareOption{cp1251}{%
+\def\pdfstringdefPostHook#1{%
+  \begingroup
+    \lccode`\1`\\%
+    \lowercase{%
+  \endgroup
+      \def\8{100}%
+      \def\9{1}%
+    }%
+  \HyPsd@StringSubst{\000¿}{\CYRA}#1%
+  \HyPsd@StringSubst{\000¡}{\CYRB}#1%
+  \HyPsd@StringSubst{\000¬}{\CYRV}#1%
+  \HyPsd@StringSubst{\000√}{\CYRG}#1%
+  \HyPsd@StringSubst{\000ƒ}{\CYRD}#1%
+  \HyPsd@StringSubst{\000≈}{\CYRE}#1%
+  \HyPsd@StringSubst{\000∆}{\CYRZH}#1%
+  \HyPsd@StringSubst{\000«}{\CYRZ}#1%
+  \HyPsd@StringSubst{\000»}{\CYRI}#1%
+  \HyPsd@StringSubst{\000…}{\CYRISHRT}#1%
+  \HyPsd@StringSubst{\000 }{\CYRK}#1%
+  \HyPsd@StringSubst{\000À}{\CYRL}#1%
+  \HyPsd@StringSubst{\000Ã}{\CYRM}#1%
+  \HyPsd@StringSubst{\000Õ}{\CYRN}#1%
+  \HyPsd@StringSubst{\000Œ}{\CYRO}#1%
+  \HyPsd@StringSubst{\000œ}{\CYRP}#1%
+  \HyPsd@StringSubst{\000–}{\CYRR}#1%
+  \HyPsd@StringSubst{\000—}{\CYRS}#1%
+  \HyPsd@StringSubst{\000“}{\CYRT}#1%
+  \HyPsd@StringSubst{\000”}{\CYRU}#1%
+  \HyPsd@StringSubst{\000‘}{\CYRF}#1%
+  \HyPsd@StringSubst{\000’}{\CYRH}#1%
+  \HyPsd@StringSubst{\000÷}{\CYRC}#1%
+  \HyPsd@StringSubst{\000◊}{\CYRCH}#1%
+  \HyPsd@StringSubst{\000ÿ}{\CYRSH}#1%
+  \HyPsd@StringSubst{\000Ÿ}{\CYRSHCH}#1%
+  \HyPsd@StringSubst{\000⁄}{\CYRHRDSN}#1%
+  \HyPsd@StringSubst{\000€}{\CYRERY}#1%
+  \HyPsd@StringSubst{\000‹}{\CYRSFTSN}#1%
+  \HyPsd@StringSubst{\000›}{\CYREREV}#1%
+  \HyPsd@StringSubst{\000ﬁ}{\CYRYU}#1%
+  \HyPsd@StringSubst{\000ﬂ}{\CYRYA}#1%
+  \HyPsd@StringSubst{\000‡}{\cyra}#1%
+  \HyPsd@StringSubst{\000·}{\cyrb}#1%
+  \HyPsd@StringSubst{\000‚}{\cyrv}#1%
+  \HyPsd@StringSubst{\000„}{\cyrg}#1%
+  \HyPsd@StringSubst{\000‰}{\cyrd}#1%
+  \HyPsd@StringSubst{\000Â}{\cyre}#1%
+  \HyPsd@StringSubst{\000Ê}{\cyrzh}#1%
+  \HyPsd@StringSubst{\000Á}{\cyrz}#1%
+  \HyPsd@StringSubst{\000Ë}{\cyri}#1%
+  \HyPsd@StringSubst{\000È}{\cyrishrt}#1%
+  \HyPsd@StringSubst{\000Í}{\cyrk}#1%
+  \HyPsd@StringSubst{\000Î}{\cyrl}#1%
+  \HyPsd@StringSubst{\000Ï}{\cyrm}#1%
+  \HyPsd@StringSubst{\000Ì}{\cyrn}#1%
+  \HyPsd@StringSubst{\000Ó}{\cyro}#1%
+  \HyPsd@StringSubst{\000Ô}{\cyrp}#1%
+  \HyPsd@StringSubst{\000}{\cyrr}#1%
+  \HyPsd@StringSubst{\000Ò}{\cyrs}#1%
+  \HyPsd@StringSubst{\000Ú}{\cyrt}#1%
+  \HyPsd@StringSubst{\000Û}{\cyru}#1%
+  \HyPsd@StringSubst{\000Ù}{\cyrf}#1%
+  \HyPsd@StringSubst{\000ı}{\cyrh}#1%
+  \HyPsd@StringSubst{\000ˆ}{\cyrc}#1%
+  \HyPsd@StringSubst{\000˜}{\cyrch}#1%
+  \HyPsd@StringSubst{\000¯}{\cyrsh}#1%
+  \HyPsd@StringSubst{\000˘}{\cyrshch}#1%
+  \HyPsd@StringSubst{\000˙}{\cyrhrdsn}#1%
+  \HyPsd@StringSubst{\000˚}{\cyrery}#1%
+  \HyPsd@StringSubst{\000¸}{\cyrsftsn}#1%
+  \HyPsd@StringSubst{\000˝}{\cyrerev}#1%
+  \HyPsd@StringSubst{\000˛}{\cyryu}#1%
+  \HyPsd@StringSubst{\000ˇ}{\cyrya}#1%
+  \HyPsd@StringSubst{\000®}{\CYRYO}#1%
+  \HyPsd@StringSubst{\000∏}{\cyryo}#1%
+  \HyPsd@StringSubst{\000c}{\textnumero}#1%
+  \expandafter\HyPsd@StringSubst\csname 000<\000<\endcsname{\guillemotleft}#1%
+  \expandafter\HyPsd@StringSubst\csname 000>\000>\endcsname{\guillemotright}#1%
+  \expandafter\HyPsd@StringSubst\csname 000,\000,\endcsname{\quotedblbase}#1%
+  \expandafter\HyPsd@StringSubst\csname 000`\000`\endcsname{\textquotedblleft}#1%
+}
+}
+\DeclareOption{koi8-r}{%
+\def\pdfstringdefPostHook#1{%
+  \begingroup
+    \lccode`\1`\\%
+    \lowercase{%
+  \endgroup
+      \def\8{100}%
+      \def\9{1}%
+    }%
+  \HyPsd@StringSubst{\000·}{\CYRA}#1%
+  \HyPsd@StringSubst{\000‚}{\CYRB}#1%
+  \HyPsd@StringSubst{\000˜}{\CYRV}#1%
+  \HyPsd@StringSubst{\000Á}{\CYRG}#1%
+  \HyPsd@StringSubst{\000‰}{\CYRD}#1%
+  \HyPsd@StringSubst{\000Â}{\CYRE}#1%
+  \HyPsd@StringSubst{\000ˆ}{\CYRZH}#1%
+  \HyPsd@StringSubst{\000˙}{\CYRZ}#1%
+  \HyPsd@StringSubst{\000È}{\CYRI}#1%
+  \HyPsd@StringSubst{\000Í}{\CYRISHRT}#1%
+  \HyPsd@StringSubst{\000Î}{\CYRK}#1%
+  \HyPsd@StringSubst{\000Ï}{\CYRL}#1%
+  \HyPsd@StringSubst{\000Ì}{\CYRM}#1%
+  \HyPsd@StringSubst{\000Ó}{\CYRN}#1%
+  \HyPsd@StringSubst{\000Ô}{\CYRO}#1%
+  \HyPsd@StringSubst{\000}{\CYRP}#1%
+  \HyPsd@StringSubst{\000Ú}{\CYRR}#1%
+  \HyPsd@StringSubst{\000Û}{\CYRS}#1%
+  \HyPsd@StringSubst{\000Ù}{\CYRT}#1%
+  \HyPsd@StringSubst{\000ı}{\CYRU}#1%
+  \HyPsd@StringSubst{\000Ê}{\CYRF}#1%
+  \HyPsd@StringSubst{\000Ë}{\CYRH}#1%
+  \HyPsd@StringSubst{\000„}{\CYRC}#1%
+  \HyPsd@StringSubst{\000˛}{\CYRCH}#1%
+  \HyPsd@StringSubst{\000˚}{\CYRSH}#1%
+  \HyPsd@StringSubst{\000˝}{\CYRSHCH}#1%
+  \HyPsd@StringSubst{\000ˇ}{\CYRHRDSN}#1%
+  \HyPsd@StringSubst{\000˘}{\CYRERY}#1%
+  \HyPsd@StringSubst{\000¯}{\CYRSFTSN}#1%
+  \HyPsd@StringSubst{\000¸}{\CYREREV}#1%
+  \HyPsd@StringSubst{\000‡}{\CYRYU}#1%
+  \HyPsd@StringSubst{\000Ò}{\CYRYA}#1%
+  \HyPsd@StringSubst{\000¡}{\cyra}#1%
+  \HyPsd@StringSubst{\000¬}{\cyrb}#1%
+  \HyPsd@StringSubst{\000◊}{\cyrv}#1%
+  \HyPsd@StringSubst{\000«}{\cyrg}#1%
+  \HyPsd@StringSubst{\000ƒ}{\cyrd}#1%
+  \HyPsd@StringSubst{\000≈}{\cyre}#1%
+  \HyPsd@StringSubst{\000÷}{\cyrzh}#1%
+  \HyPsd@StringSubst{\000⁄}{\cyrz}#1%
+  \HyPsd@StringSubst{\000…}{\cyri}#1%
+  \HyPsd@StringSubst{\000 }{\cyrishrt}#1%
+  \HyPsd@StringSubst{\000À}{\cyrk}#1%
+  \HyPsd@StringSubst{\000Ã}{\cyrl}#1%
+  \HyPsd@StringSubst{\000Õ}{\cyrm}#1%
+  \HyPsd@StringSubst{\000Œ}{\cyrn}#1%
+  \HyPsd@StringSubst{\000œ}{\cyro}#1%
+  \HyPsd@StringSubst{\000–}{\cyrp}#1%
+  \HyPsd@StringSubst{\000“}{\cyrr}#1%
+  \HyPsd@StringSubst{\000”}{\cyrs}#1%
+  \HyPsd@StringSubst{\000‘}{\cyrt}#1%
+  \HyPsd@StringSubst{\000’}{\cyru}#1%
+  \HyPsd@StringSubst{\000∆}{\cyrf}#1%
+  \HyPsd@StringSubst{\000»}{\cyrh}#1%
+  \HyPsd@StringSubst{\000√}{\cyrc}#1%
+  \HyPsd@StringSubst{\000ﬁ}{\cyrch}#1%
+  \HyPsd@StringSubst{\000€}{\cyrsh}#1%
+  \HyPsd@StringSubst{\000›}{\cyrshch}#1%
+  \HyPsd@StringSubst{\000ﬂ}{\cyrhrdsn}#1%
+  \HyPsd@StringSubst{\000Ÿ}{\cyrery}#1%
+  \HyPsd@StringSubst{\000ÿ}{\cyrsftsn}#1%
+  \HyPsd@StringSubst{\000‹}{\cyrerev}#1%
+  \HyPsd@StringSubst{\000¿}{\cyryu}#1%
+  \HyPsd@StringSubst{\000—}{\cyrya}#1%
+  \HyPsd@StringSubst{\000≥}{\CYRYO}#1%
+  \HyPsd@StringSubst{\000£}{\cyryo}#1%
+  \HyPsd@StringSubst{\000c}{\textnumero}#1%
+  \expandafter\HyPsd@StringSubst\csname 000<\000<\endcsname{\guillemotleft}#1%
+  \expandafter\HyPsd@StringSubst\csname 000>\000>\endcsname{\guillemotright}#1%
+  \expandafter\HyPsd@StringSubst\csname 000,\000,\endcsname{\quotedblbase}#1%
+  \expandafter\HyPsd@StringSubst\csname 000`\000`\endcsname{\textquotedblleft}#1%
+}
+}
+\ProcessOptions

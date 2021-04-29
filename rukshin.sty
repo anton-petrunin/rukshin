@@ -1,0 +1,74 @@
+\usepackage{amssymb, amsfonts, amsmath, amsthm}
+\usepackage{epsfig,lpic,wrapfig}
+%\usepackage{russlh}
+%\usepackage[cp1251]{pdfstringdefPostHook}
+\usepackage[unicode=true]{hyperref}
+\hypersetup{
+colorlinks=true,
+citecolor=black,
+linkcolor=black,
+anchorcolor=black,
+filecolor=black,
+menucolor=black,
+urlcolor=black}
+
+%THEOREM
+\newcounter{thm}[section]
+\renewcommand{\thethm}{\thesection.\arabic{thm}}
+\def\claim#1{\par\medskip\noindent\refstepcounter{thm}\hbox{\bf \arabic{section}.\arabic{thm}. #1.}
+\it\ %\ignorespaces
+}
+\def\endclaim{
+\par\medskip}
+\newenvironment{thm}{\claim}{\endclaim}
+
+\usepackage[russian]{babel}
+%\usepackage{mathtext} ()
+%\usepackage[T2A]{fontenc}
+\usepackage[cp1251]{inputenc}
+%\usepackage[active]{srcltx}
+\usepackage{graphicx}
+%\usepackage{url, multicol}
+
+
+\def\noi{\noindent}%  
+%\def\ts{\thinspace}%  
+\def\CC{\mathbb{C}}%  
+\def\PP{\mathbb{P}}%  
+\def\NN{\mathbb{N}}%  
+\def\RR{\mathbb{R}}%  
+\def\ZZ{\mathbb{Z}}% 
+\def\QQ{\mathbb{Q}}% 
+\def\cC{{\Cal C}}%  
+\def\cF{{\Cal F}}%  
+\def\cM{{\Cal M}}%  
+\def\cS{{\Cal S}}%  
+\def\cT{{\Cal T}}%  
+\def\eps{\varepsilon}%  
+\def\a{\alpha}%  
+\def\ge{\geqslant}%
+\def\le{\leqslant}%
+\def\phi{\varphi}%
+\def\"#1{{\accent"7F #1\penalty10000\hskip 0pt plus 0pt}} % ! % 
+
+
+%MY STYLE
+\def\parit#1{\medskip\noindent{\it #1}}
+\def\parbf#1{\medskip\noindent{\bf #1}}
+\def\qeds{\qed\par\medskip}
+
+%LIST STILES
+\renewcommand{\@listI}{%
+\leftmargin=25pt
+\rightmargin=0pt
+\labelsep=5pt
+\labelwidth=20pt
+\itemindent=0pt
+\listparindent=0pt
+\topsep=0pt plus 1pt
+\partopsep=\topsep
+\parsep=\topsep
+\itemsep=\topsep}
+%ITEMIZE-first order sign
+\renewcommand{\labelitemi}{$\mathsurround=0pt \diamond$}
+\renewcommand{\labelitemii}{$\mathsurround=0pt \circ$}
